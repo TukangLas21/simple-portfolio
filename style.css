@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2EFE7;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    min-height: 100vh;
+    background: #2973B2;
+    color: white;
+    gap: 100px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    margin: 0;
+    padding-right: 100px;
+    font-size: 4.5em;
+}
+
+.span-name {
+    color: #131059;
+}
+
+.span-itb a {
+    font-weight: bold;
+    color: #F2EFE7;
+    text-decoration: underline;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.profile-image img {
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 2em;
+}
+
+section p {
+    padding: 0 10px;
+    font-size: 1.1em;
+}
+
+.interests-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px;
+}
+
+.interests img {
+    width: 150px;
+    height: 150px;
+    margin: 0 5px;
+    border-radius: 20%;
+    border: 8px solid #48A6A7;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #3a4849;
+}
+
+a {
+    color: #2973B2;
+    text-decoration: none;
+}
+
+footer {
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-width: 100vh;
+    background-color: #fafafa;
+}
+
+footer h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.contact-list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 10px;
+    font-size: 3em;
+    gap: 40px
+}
